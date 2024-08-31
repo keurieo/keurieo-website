@@ -1,6 +1,20 @@
-@import "variables";
+$primery:#7B1EFA;
+$sceondary:#02EA5F;
+$black:#08131E;
+$white:#D8DEEA;
 
-.font{
+// Sizes
+$S10:10px;
+$S16:16px;
+
+// Navigation
+.navigation{
     background-color: $primery;
-    color: $sceondary;
+
+}
+
+// Text
+.navigationText{
+    color: $white;
+
 }
