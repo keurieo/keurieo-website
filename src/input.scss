@@ -1,20 +1,15 @@
-$primery:#7B1EFA;
-$sceondary:#02EA5F;
-$black:#08131E;
-$white:#D8DEEA;
+@import "variables";
 
-// Sizes
-$S10:10px;
-$S16:16px;
-
-// Navigation
-.navigation{
-    background-color: $primery;
-
+// utittles
+.bg-color{
+    background-color: $white;
 }
 
-// Text
-.navigationText{
-    color: $white;
-
+// hero section 
+.hero-title{
+    font-size: 100px;
+    font-weight: bold;
+    // font-stretch: expanded;
+    color: $black;
+    font-family: 'ClashDisplay-Bold';
 }
